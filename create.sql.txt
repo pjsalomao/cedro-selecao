@@ -1,0 +1,38 @@
+USE MASTER    
+GO    
+--1) Check for the Database Exists.If the database is exist then drop and create new DB    
+IF EXISTS(SELECT[name] FROM sys.databases WHERE[name] = 'RestauranteDB')    
+DROP DATABASE RestauranteDB    
+GO    
+CREATE DATABASE RestauranteDB    
+GO    
+USE RestauranteDB    
+GO    
+--1) //////////// CadastroRestaurante    
+IF EXISTS(SELECT[name] FROM sys.tables WHERE[name] = 'CadastroRestaurante')    
+DROP TABLE CadastroRestaurante    
+GO    
+CREATE TABLE[dbo].[CadastroRestaurante](    
+        [ID] INT IDENTITY, 
+		[RestauranteNome][varchar](100) PRIMARY KEY    
+    )    
+    --insert sample data to Student Master table    
+INSERT INTO [CadastroRestaurante]([RestauranteNome])    
+VALUES('Restaurante da praia')    
+INSERT INTO [CadastroRestaurante]([RestauranteNome])    
+VALUES('Bola de carne')
+INSERT INTO [CadastroRestaurante]([RestauranteNome])    
+VALUES('Peixe na brasa')
+
+--1) //////////// CadastroPratos    
+IF EXISTS(SELECT[name] FROM sys.tables WHERE[name] = 'CadastroPratos')    
+DROP TABLE CadastroPratos    
+GO    
+CREATE TABLE[dbo].[CadastroPratos](    
+        [ID] INT IDENTITY PRIMARY KEY, 
+		[RestauranteNome] [varchar](100),
+		[Nome][varchar](100) NOT NULL,
+		[Preco][real],
+		CONSTRAINT fk_PrRest FOREIGN KEY (RestauranteNome) REFERENCES CadastroRestaurante (RestauranteNome)   
+    )    
+     
