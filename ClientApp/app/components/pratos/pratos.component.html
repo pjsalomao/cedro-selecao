@@ -1,0 +1,58 @@
+﻿<style>
+    div.container {
+        width: 100%;
+        border: 1px solid gray;
+        float: left;
+        border-collapse: collapse;
+    }
+</style>
+
+<h1>Pratos :</h1>
+
+    <h5>Filtro</h5>
+    <div class="container">
+        <br>
+
+        <form action="/action_page.php">
+            <label>
+                Nome:<br>
+                <input [(ngModel)]="pratos.ome" placeholder="Nome" max-width="400px">
+            </label>
+            <br>
+            <label>
+                Preço:<br>
+                <input [(ngModel)]="pratos.preco" placeholder="Preço" max-width="400px">
+            </label>
+            <br><br><br>
+            <button type="button" onclick="alert('Hello World!')" style="background-color:blue; color:white;">Pesquisar</button>
+            <button type="button" [routerLink]="['/cadastrar-prato']" style="background-color:green; color:white;">Cadastrar restaurante</button>
+        </form>
+
+
+    </div>
+
+    <table class='table' style="background-color:#FFFFFF; border:2px #6D7B8D; padding:5px;width:99%;table-layout:fixed;" cellpadding="2" cellspacing="2">
+
+        <tr style="height: 30px; background-color:#336699 ; color:#FFFFFF ;border: solid 1px #659EC7;">
+            <td width="100" align="center"></td>
+            <td width="240" align="center"></td>
+            <td width="240" align="center">Prato</td>
+            <td width="100" align="center">Preço</td>
+
+
+        </tr>
+        <tbody *ngFor="let prato  of pratos">
+            <tr>
+                <td align="center" style="border: solid 1px #659EC7; padding: 5px;table-layout:fixed;"></td>
+
+                <td align="left" style="border: solid 1px #659EC7; padding: 5px;table-layout:fixed;"></td>
+
+                <td align="left" style="border: solid 1px #659EC7; padding: 5px;table-layout:fixed;">
+                    <span style="color:#9F000F">{{prato.nome}}</span>
+                </td>
+                <td align="left" style="border: solid 1px #659EC7; padding: 5px;table-layout:fixed;">
+                    <span style="color:#9F000F">{{prato.preço}}</span>
+                </td>
+            </tr>
+        </tbody>
+    </table>

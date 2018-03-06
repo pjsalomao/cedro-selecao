@@ -1,0 +1,9 @@
+<div>
+  <label>Restaurante:
+    <input #restauranteNome />
+  </label>
+  <!-- (click) passes input value to add() and then clears the input -->
+  <button (click)="add(restauranteNome.value); restaurante.value=''">
+    add
+  </button>
+</div>

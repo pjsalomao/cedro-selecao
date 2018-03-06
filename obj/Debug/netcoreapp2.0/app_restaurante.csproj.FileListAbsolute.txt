@@ -1,0 +1,22 @@
+C:\dev\app_restaurante\app_restaurante\bin\Debug\netcoreapp2.0\app_restaurante.deps.json
+C:\dev\app_restaurante\app_restaurante\bin\Debug\netcoreapp2.0\app_restaurante.runtimeconfig.json
+C:\dev\app_restaurante\app_restaurante\bin\Debug\netcoreapp2.0\app_restaurante.runtimeconfig.dev.json
+C:\dev\app_restaurante\app_restaurante\bin\Debug\netcoreapp2.0\app_restaurante.dll
+C:\dev\app_restaurante\app_restaurante\bin\Debug\netcoreapp2.0\app_restaurante.pdb
+C:\dev\app_restaurante\app_restaurante\obj\Debug\netcoreapp2.0\app_restaurante.csprojResolveAssemblyReference.cache
+C:\dev\app_restaurante\app_restaurante\obj\Debug\netcoreapp2.0\app_restaurante.csproj.CoreCompileInputs.cache
+C:\dev\app_restaurante\app_restaurante\obj\Debug\netcoreapp2.0\app_restaurante.AssemblyInfoInputs.cache
+C:\dev\app_restaurante\app_restaurante\obj\Debug\netcoreapp2.0\app_restaurante.AssemblyInfo.cs
+C:\dev\app_restaurante\app_restaurante\obj\Debug\netcoreapp2.0\app_restaurante.dll
+C:\dev\app_restaurante\app_restaurante\obj\Debug\netcoreapp2.0\app_restaurante.pdb
+C:\dev\app_restaurante - Copia\app_restaurante\bin\Debug\netcoreapp2.0\app_restaurante.deps.json
+C:\dev\app_restaurante - Copia\app_restaurante\bin\Debug\netcoreapp2.0\app_restaurante.runtimeconfig.json
+C:\dev\app_restaurante - Copia\app_restaurante\bin\Debug\netcoreapp2.0\app_restaurante.runtimeconfig.dev.json
+C:\dev\app_restaurante - Copia\app_restaurante\bin\Debug\netcoreapp2.0\app_restaurante.dll
+C:\dev\app_restaurante - Copia\app_restaurante\bin\Debug\netcoreapp2.0\app_restaurante.pdb
+C:\dev\app_restaurante - Copia\app_restaurante\obj\Debug\netcoreapp2.0\app_restaurante.csprojResolveAssemblyReference.cache
+C:\dev\app_restaurante - Copia\app_restaurante\obj\Debug\netcoreapp2.0\app_restaurante.csproj.CoreCompileInputs.cache
+C:\dev\app_restaurante - Copia\app_restaurante\obj\Debug\netcoreapp2.0\app_restaurante.AssemblyInfoInputs.cache
+C:\dev\app_restaurante - Copia\app_restaurante\obj\Debug\netcoreapp2.0\app_restaurante.AssemblyInfo.cs
+C:\dev\app_restaurante - Copia\app_restaurante\obj\Debug\netcoreapp2.0\app_restaurante.dll
+C:\dev\app_restaurante - Copia\app_restaurante\obj\Debug\netcoreapp2.0\app_restaurante.pdb
